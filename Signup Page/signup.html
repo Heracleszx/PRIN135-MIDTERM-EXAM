@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="signup.css" />
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <p>Please fill out this form with the required information</p>
+    <fieldset>
+        <label for="first-name">First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="age">Age: <input id="age" name="age" type="age" required /></label>
+        <p><label>Gender:</label></p>
+        <p> <input type="radio" name="radioGroup" value="optionA"> Male</p>
+        <p> <input type="radio" name="radioGroup" value="optionB"> Female</p>
+        <label for="age">Email: <input id="age" name="age" type="age" required /></label>
+        <label for="new-password">Password: <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}"
+                required /></label>
+        <label for="new-password">Confirm Password: <input id="confirm-password" name="confirm-password" type="password"
+                pattern="[a-z0-5]{8,}" required /></label>
+
+        <br>
+
+        <label for="dropdown">Select Year Level:</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="option1">Select Year Level</option>
+            <option value="option2">First Year</option>
+            <option value="option1">Second Year</option>
+            <option value="option1">Third Year</option>
+            <option value="option2">Fourth Year</option>
+
+
+
+            <input type="checkbox" id="computerArchitecture" name="computerArchitecture"> Computer Architecture</p>
+            <input type="checkbox" id="computerNetworking" name="computerWorking"> Computer Networking</p>
+            <input type="checkbox" id="computerProgramming" name="computerProgramming">Computer Programming</p>
+            <input type="checkbox" id="databaseManagement" name="databaseManagement">Database Management</p>
+            <input type="checkbox" id="systemAdministration" name="systemAdministration">System Administration
+            <input type="checkbox" id="UI/Exp" name="UI/Exp">User Interface / Experience
+            <input type="checkbox" id="webDevelopment" name="webDevelopment"> Web Development
+
+
+
+            </label>
+        </select>
+    </fieldset>
+
+
+    <p><label for="bio">Other skill not mention from above.</label></p>
+    <p><textarea id="bio" name="bio" rows="3" cols="100" placeholder="Enter your other skills here..."></textarea></p>
+    </label>
+    </fieldset>
+    <input type="submit" value="Sign Up" />
+        
+   <center><a href="../Login Page/login.css">Back to Login</a></center>
+</body>
+
+</html>
